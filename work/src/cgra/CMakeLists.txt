@@ -1,0 +1,19 @@
+
+# Source files
+set(sources
+	"CMakeLists.txt"
+
+	"cgra_gui.hpp"
+	"cgra_gui.cpp"
+
+	"cgra_mesh.hpp"
+	"cgra_mesh.cpp"
+
+	"cgra_shader.hpp"
+	"cgra_shader.cpp"
+
+	"cgra_wavefront.hpp"
+)
+
+# Add these sources to the project target
+target_relative_sources(${CGRA_PROJECT} ${sources})
